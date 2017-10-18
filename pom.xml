@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.mldn</groupId>
-	<artifactId>mldnspring</artifactId>
+	<artifactId>TwoDayProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>mldnspring</name>
+	<name>TwoDayProject</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -135,12 +135,8 @@
 		</plugins>
 	</build>
 	<modules>
-		<module>mldnspring-ioc</module>
-		<module>mldnspring-di</module>
-		<module>mldnspring-context</module>
-		<module>mldnspring-resource</module>
-		<module>mldnspring-spel</module>
-		<module>mldnspring-schedule</module>
-		<module>mldnspring-aop</module>
+		<module>TwoDayProject-spel</module>
+		<module>TwoDayProject-schedule</module>
+		<module>TwoDayProject-aop</module>
 	</modules>
 </project>
